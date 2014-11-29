@@ -6,7 +6,10 @@
  License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
  
  I've had a few projects (Wimp Weather Station, GPS Clock, etc) that needed local time corrected with daylight savings.
- Here is a cleaned up 
+ Here is a cleaned up example.
+
+ calcLocalHour(year, month, day, UTC_hour, local_hour_offset)
+ Returns a byte
 
  */
 
